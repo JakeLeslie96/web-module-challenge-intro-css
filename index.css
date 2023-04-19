@@ -47,3 +47,98 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace; 
+
+
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive; 
+    font-size: 7rem;
+}
+
+section{
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* header section*/
+nav{
+    padding: 2%;
+}
+nav a{
+   display: inline-block; 
+   padding: 1% 0;
+   width: 10%;
+   text-align: center;
+   border-radius: 10px;
+   color:white;
+   text-decoration: none;
+}
+
+.plan{
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+.learn{
+    background-color: #5ED3EB;
+    margin: 0 24%
+}
+.get{
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+
+/*Title Section*/
+
+.Welcome{
+    position:relative;
+}
+.text, .header-img{
+    display: inline-block;
+}
+.header-img{
+    width: 20%;
+}
+
+.header-img{
+    border-radius: 50%;
+}
+
+.text{
+    width: 100%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 2;
+    position: absolute;
+    top: 200px;
+}
+
+.about{
+    text-align: center;
+    margin: 0 10% ;
+    background-color: #DDB9A3;
+    padding: 1.25%;
+}
+.campfire{
+    text-align: center;
+    width: 30%;
+    margin: 5% auto;
+
+}
+.bold{
+    font-weight: bold;
+}
